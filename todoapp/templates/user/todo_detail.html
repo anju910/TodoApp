@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{%extends 'user/base.html'%}
+{%block body_block%}
+<body>
+<div class="container">
+    <div class="card">
+  <h5 class="card-header">ToDo</h5>
+  <div class="card-body">
+
+    <p class="card-text"><h6 style="text-bold">TaskName:</h6>{{todo.task_name}}</p>
+      <p class="card-text"><h6 style="text-bold">Status:</h6>{{todo.completed}}</p>
+    <p class="card-text"><h6 style="text-bold">CreatedBy:</h6>{{todo.created_by}}</p>
+
+
+  </div>
+</div>
+</div>
+</body>
+{%endblock%}
+</html>
